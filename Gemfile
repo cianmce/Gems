@@ -2,9 +2,9 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem 'typhoeus', '~> 1.3', '>= 1.3.1'
+gem "typhoeus", "~> 1.3", ">= 1.3.1"
 gem "sentry-raven", "2.9.0"
 
 group :development, :test do
@@ -34,4 +34,3 @@ group :development do
   gem "httplog", "~> 1.3", ">= 1.3.1"
   gem "standard", "~> 0.2.3"
 end
-
