@@ -14,6 +14,7 @@ group :development, :test do
   gem "factory_bot_rails"
   gem "annotate"
   gem "bundler-audit"
+  gem "license_finder"
 
   # pry
   gem "pry"
